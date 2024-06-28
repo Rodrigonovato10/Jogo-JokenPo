@@ -1,11 +1,15 @@
+
+
+
 const result = document.querySelector('.result')
 const youScore = document.querySelector('#human-score')
 const machineScore = document.querySelector('#machine-score')
+let borde = document.querySelectorAll('.buttons').values
 
 let humanScoreNumber = 0
 let machineScoreNumber = 0
 
-
+console.log("borde")
 
 const playHuman = (humanChoice) => {
 
@@ -17,6 +21,8 @@ const playMachine = () => {
     const randomNuber = Math.floor(Math.random() * 3)
 
     return choices[randomNuber]
+    
+
 }
 
 const playTheGame = (human, machine) => {
