@@ -140,7 +140,9 @@ p {
     .your-score span{
         color: blue;
     }
-    
+    .machine{
+        font-size: 20px;
+    }
     .machine-score span{
         color: red;
     }
