@@ -3,7 +3,7 @@
 <br>
 <h3>Ele e totalmente responsivo</h3>
 
-<img src"https://github.com/Rodrigonovato10/Jogo-JokenPo/blob/main/imagem%20para%20divulgac%C3%A3o.png?raw=true">
+<img src="https://github.com/Rodrigonovato10/Jogo-JokenPo/blob/main/imagem%20para%20divulgac%C3%A3o.png?raw=true">
 
 
 
