@@ -89,7 +89,7 @@ p {
     
     .container {
         margin: 30vh;
-        padding:20px;
+        padding:35px;
         background-color: #FFFF;
         border-radius: 10px;
         display: flex;
@@ -112,7 +112,7 @@ p {
         margin: 15px 0px;
         border: none;
         display: flex;
-        gap: 30px;
+        gap: 20px;
     }
     
     button:hover {
