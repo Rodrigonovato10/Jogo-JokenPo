@@ -141,7 +141,7 @@ p {
         color: blue;
     }
     .machine{
-        font-size: 40px;
+        font-size: 30vw
     }
     .machine-score span{
         color: red;
