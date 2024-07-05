@@ -27,7 +27,7 @@ button {
     padding: 10px;
     font-size: 50px;
     cursor: pointer;
-    border: none;
+    border: px;
     border-radius: 10px;
     transition: opacity 0.5s ease-in-out;
 }
@@ -46,14 +46,17 @@ button:hover {
 
 #rock {
     background-color: #a200ff;
+    border-color: black;
 }
 
 #paper {
     background-color: #9ee01a;
+    border-color: black;
 }
 
 #scissors {
     background-color: #7dbeed;
+    border-color: black;
 }
 
 p {

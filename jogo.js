@@ -4,12 +4,14 @@
 const result = document.querySelector('.result')
 const youScore = document.querySelector('#human-score')
 const machineScore = document.querySelector('#machine-score')
-let borde = document.querySelectorAll('.buttons').values
+let seletor = document.getElementById ("rock")
+let seletor1 = document.getElementById ("paper")
+let seletor2 = document.getElementById ("scissors")
+
 
 let humanScoreNumber = 0
 let machineScoreNumber = 0
 
-console.log("borde")
 
 const playHuman = (humanChoice) => {
 
@@ -22,7 +24,6 @@ const playMachine = () => {
 
     return choices[randomNuber]
     
-
 }
 
 const playTheGame = (human, machine) => {
@@ -46,4 +47,17 @@ const playTheGame = (human, machine) => {
         machineScore.innerHTML = machineScoreNumber
         result.innerHTML = "Você perdeu!"
     }
-}
+   
+    if(machine === 'rock'){
+        seletor.style.borderColor = "#FF0000";
+    }else{  seletor.style.borderColor = "#000";}
+
+    if(machine === 'paper'){
+        seletor1.style.borderColor = "#FF0000";
+    }else{  seletor1.style.borderColor = "#000";}
+
+    if(machine === 'scissors'){
+        seletor2.style.borderColor = "#FF0000";
+    }else{  seletor2.style.borderColor = "#000";}
+
+}  
