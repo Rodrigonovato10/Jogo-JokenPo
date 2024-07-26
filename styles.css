@@ -92,7 +92,7 @@ p {
     
     .container {
         margin: 30vh;
-        padding:35px;
+        padding: 15vw;
         background-color: #FFFF;
         border-radius: 10px;
         display: flex;
@@ -144,7 +144,11 @@ p {
         color: blue;
     }
     .machine{
+<<<<<<< HEAD
         font-size: auto;
+=======
+        font-size: 5.vw;
+>>>>>>> 42c7ff1ae905493e2cced492a82e4b0cb5553c0a
         
     }
     #machine-score{
