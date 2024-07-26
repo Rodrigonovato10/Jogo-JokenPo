@@ -1,7 +1,10 @@
 
 
 
-const result = document.querySelector('.result')
+
+let result = document.querySelector('.result')
+let result1 = document.querySelector('.result1')
+let result2 = document.querySelector('.result2')
 const youScore = document.querySelector('#human-score')
 const machineScore = document.querySelector('#machine-score')
 let seletor = document.getElementById ("rock")
@@ -31,22 +34,26 @@ const playTheGame = (human, machine) => {
     console.log('Humano:' + human + "Maquina: " + machine)
 
     if (human === machine) {
-        result.innerHTML = "Deu empate!"
+        result.innerHTML = "Deu Empate😑!"
 
-    } else if(
+
+    }else if(
         (human === 'paper' && machine === 'rock') ||
         (human === 'rock' && machine === 'scissors') ||
         (human === 'scissors' && machine === 'paper')
     ){
         humanScoreNumber++
         youScore.innerHTML = humanScoreNumber
-        result.innerHTML = "Você Ganhou!"
-    }
-    else {
+        result.innerHTML = "Você Ganhou...😁!!!"
+        
+    
+    }else {
         machineScoreNumber++
         machineScore.innerHTML = machineScoreNumber
-        result.innerHTML = "Você perdeu!"
+        result.innerHTML ="Você Perdeu..😢!!!"
     }
+    
+
    
     if(machine === 'rock'){
         seletor.style.borderColor = "#FF0000";

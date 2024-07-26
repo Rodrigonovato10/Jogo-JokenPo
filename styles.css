@@ -27,7 +27,7 @@ button {
     padding: 10px;
     font-size: 50px;
     cursor: pointer;
-    border: px;
+    border-width: 9px;
     border-radius: 10px;
     transition: opacity 0.5s ease-in-out;
 }
@@ -68,7 +68,7 @@ p {
     color: blue;
 }
 
-.machine-score span{
+#machine-score {
     color: red;
 }
 
@@ -106,7 +106,7 @@ p {
         padding: 10px;
         font-size: 20px;
         cursor: pointer;
-        border: none;
+        border-width: 9px;
         border-radius: 10px;
         transition: opacity 0.5s ease-in-out;
     }
@@ -144,10 +144,10 @@ p {
         color: blue;
     }
     .machine{
-        font-size: 30vw;
+        font-size: auto;
         
     }
-    .machine-score span{
+    #machine-score{
         color: red;
     }
     }
